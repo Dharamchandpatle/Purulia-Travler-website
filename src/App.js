@@ -4,10 +4,10 @@ import './assets/css/tailwind.css'
 import './assets/css/materialdesignicons.min.css'
 
 import Index from './pages/index/index'
-import IndexTwo from './pages/index/index-two'
-import IndexThree from './pages/index/index-three'
-import IndexFour from './pages/index/index-four'
-import IndexFive from './pages/index/index-five'
+// import IndexTwo from './pages/index/index-two'
+// import IndexThree from './pages/index/index-three'
+// import IndexFour from './pages/index/index-four'
+// import IndexFive from './pages/index/index-five'
 import Grid from './pages/listing/tour-grid/grid' 
 import GridLeftSidebar from './pages/listing/tour-grid/grid-left-sidebar'
 import GridRightSidebar from './pages/listing/tour-grid/grid-right-sidebar'
@@ -41,15 +41,19 @@ import Blogs from './pages/blog/blogs'
 import BlogStandard from './pages/blog/blog-standard'
 import BlogDetail from './pages/blog/blog-detail'
 import Contact from './pages/contact'
+import OurHotels from "./pages/OurHotels/OurHotels";
+import HotelGallery from "./pages/OurHotels/SubComponents/HotelGallery";
+import HotelDetails from "./pages/OurHotels/SubComponents/HotelDetails";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
    <Routes>
     <Route path="/" element={<Index/>}/>
-    <Route path="/index-two" element={<IndexTwo/>}/>
-    <Route path="/index-three" element={<IndexThree/>}/>
-    <Route path="/index-four" element={<IndexFour/>}/>
-    <Route path="/index-five" element={<IndexFive/>}/>
+    {/* <Route path="/index-two" element={<IndexTwo/>}/> */}
+    {/* <Route path="/index-three" element={<IndexThree/>}/> */}
+    {/* <Route path="/index-four" element={<IndexFour/>}/> */}
+    {/* <Route path="/index-five" element={<IndexFive/>}/> */}
     <Route path="/grid" element={<Grid/>}/>
     <Route path="/grid-left-sidebar" element={<GridLeftSidebar/>}/>
     <Route path="/grid-right-sidebar" element={<GridRightSidebar/>}/>
@@ -85,6 +89,10 @@ function App() {
     <Route path="/blog-detail" element={<BlogDetail/>}/>
     <Route path="/blog-detail/:id" element={<BlogDetail/>}/>
     <Route path="/contact" element={<Contact/>}/>
+    <Route path="/hotels" element={<OurHotels/>}/>
+    <Route path="/gallery" element={<Gallery/>}/>
+
+
    </Routes>
   );
 }

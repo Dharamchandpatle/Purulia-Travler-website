@@ -24,8 +24,8 @@ export default function AccountingTab(){
                             </div>
 
                             <div className="mt-4">
-                                <h5 className="text-lg font-semibold">Jesus Zamora</h5>
-                                <p className="text-slate-400">jesus@hotmail.com</p>
+                                <h5 className="text-lg font-semibold">DharamChand Patle </h5>
+                                <p className="text-slate-400">dharamchandpatle@gmail.com</p>
                             </div>
                         </div>
                     </div>

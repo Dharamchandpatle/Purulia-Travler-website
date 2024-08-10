@@ -169,6 +169,90 @@ export const packages = [
     },
 ]
 
+export const HotelData = [
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/feature-12.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 5,
+    },
+  
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/feature-20.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 4,
+    },
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/feature-19.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 3,
+    },
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/feature-17.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 5,
+    },
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/Bar-on-property-2-1.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 4,
+    },
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/feature-1-2.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 3,
+    },
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/feature-21.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 5,
+    },
+    {
+      imageurl:
+        "https://modmixmap.travelerwp.com/wp-content/uploads/2022/04/feature-1.png",
+      title: "Castello Casole Hotel",
+      city: "New York City",
+      rating: "Excellent",
+      review: "(3)",
+      price: "€150.00",
+      stars: 4,
+    },
+  ];
+
 export const ClientData = [
     {
         image:client1,
